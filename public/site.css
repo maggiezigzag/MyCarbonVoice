@@ -5,15 +5,32 @@
     left: 0;
     bottom: 0;
 }
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
 .sidebarStyle {
     display: inline-block;
     position: absolute;
+    height: 27%;
+    width: 50;
     top: 0;
     left: 0;
     margin: 12px;
-    background-color: #404040;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #404040;
     z-index: 1 !important;
-    padding: 6px;
+    padding: 12px;
     font-weight: bold;
+    font-family: Helvetica;
 }
